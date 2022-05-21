@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+
+body{
+    position: absolute;
+    background-image: url(./assets/homebkg.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+/* Navbar */
+
+.top{
+    height: 203px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5) 40%, rgba(0, 0, 0, 0) 100%);
+}
+
+.header{
+    overflow: hidden;
+}
+
+.bar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 19px;
+}
+
+.logo{
+    margin-left: 120px;
+    width: 148px;
+}
+
+.navText{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+    margin-top: 26px;
+}
+
+.hrefText{
+    margin-right: 23px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+/* Top Body */
+
+.topBody{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: radial-gradient(40% 50% at 20% 50%, #060606 0%, rgba(6, 6, 6, 0) 100%)
+    /* background-image: radial-gradient(red, yellow, green); */
+}
+
+.new{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-left: 122px;
+}
+
+.nature{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 58px;
+    margin-top: 7px;
+    margin-left: 122px;
+}
+
+.here{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 122px;
+}
+
+.desc{
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 38px;
+    margin-left: 122px;
+}
