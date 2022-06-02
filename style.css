@@ -2,12 +2,12 @@
     margin: 0px;
 }
 
-body{
-    position: absolute;
+.bkg{
+    position: relative;
     background-image: url(./assets/homebkg.jpg);
-    height: 100%;
-    width: 100%;
     background-size: cover;
+    width: 100%;
+    height: 100%;
 }
 
 /* Navbar */
@@ -99,4 +99,38 @@ body{
     line-height: 27px;
     margin-top: 38px;
     margin-left: 122px;
+}
+
+.fade{
+    padding-top: 100px;
+    background: linear-gradient(360deg, #F1EEE9 20%, rgba(241, 238, 233, 0) 100%);
+}
+
+.tag{
+    width: 13%;
+}
+
+.buy{
+    margin-left: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.buyBtn{
+    width: auto;
+    margin-top: 40px;
+    margin-left: 112px;
+    padding: 12px 15px 12px 15px;
+    border-radius: 25px;
+    border-width: 0;
+    background: #FF8C32;
+    color: #FFFFFF;
+}
+
+/* Lower Body */
+
+.white{
+    position: absolute;
 }
